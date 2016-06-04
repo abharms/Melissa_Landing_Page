@@ -1,0 +1,291 @@
+
+
+/*-----------------------
+	Universal Styles
+-------------------------*/
+
+
+body {
+	font-family: Raleway;
+	color: #7f8c8d;;
+}
+a {
+	font-size: .75rem;
+}
+section {
+	margin: 100px 0;
+}
+
+
+
+/*-----------------------
+	Header Styles
+-------------------------*/
+
+header {
+	margin: 1em 0;
+}
+.logo {
+	display: inline-block;
+	margin-left: 16%;
+}
+.logo img {
+	width: 200px;
+}
+.hamburger {
+  display: inline-block;
+  
+  margin-left: 1rem;
+}
+.hamburger a {
+  text-decoration: none;
+  color: #7f8c8d;
+  font-size: 36px;
+}
+
+#mobileMenu {
+	display: none;
+	width: 96%;
+}
+
+#mobileMenu ul {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+#mobileMenu li {
+	padding: 4px 0 4px 0;
+	border-bottom: 1px solid #7f8c8d;
+}
+
+#mobileMenu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #7f8c8d;
+
+}
+
+/*-----------------------
+	Top Photos
+-------------------------*/
+
+
+.landingPhoto {
+	max-width: 100%;
+	margin-top: 35px;
+}
+
+
+/*-----------------------
+	Welcome Section
+-------------------------*/
+
+/*.container {
+	padding: 0 10%;
+}*/
+.container h1,
+.container p {
+	text-align: center;
+}
+.container h1 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.button {
+	display:inline-block;
+	margin-top: 10px;
+	color: #fff;
+	padding: 12px 22px;
+	border: 2px solid #edae80;
+	background-color: #edae80;
+	letter-spacing: 2px;
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+.button:hover {
+	background-color: #fff;
+	color: #edae80;
+	border: 2px solid #edae80;
+}
+
+
+.fa-arrow-left {
+	margin-left: 8px;
+}
+
+/*-----------------------
+	What My Clients Say
+-------------------------*/
+
+.what-clients-say {
+	height: 450px;
+	background-image: url('../img/clients-say-photo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.reviews {
+	color: #fff;
+	padding-top: 175px;
+}
+
+
+
+/*-----------------------
+	See More
+-------------------------*/
+
+.box {
+    width: 300px;
+    min-height: 200px;
+    background-color: #ECECEC;
+    border: 1px solid #C6C6C6;
+    border-radius: 3px;
+    text-align: left;
+ }
+
+img.birth,
+img.lifestyle,
+img.portraits {
+	display: block;
+	position: relative;
+	max-width: 100%;
+}
+
+.bottomPhotosHover {
+	background-color: black;
+    position: absolute;
+    width: 290px;
+    height: 185px;
+    margin: 5px 5px 0 5px;
+    display: none;
+    opacity: 0.7;
+}
+
+.see-more p {
+	text-align: left;
+	max-width: 350px;
+}
+.categories {
+	margin-bottom: 30px;
+}
+.column-1,
+.column-2,
+.column-3 {
+	margin-bottom: 40px;
+}
+.see-more-btn {
+	text-align: center;
+	margin-top: 65px;
+}
+.see-more-btn a {
+	padding: 15px 55px;
+}
+
+
+/*-----------------------
+	Footer
+-------------------------*/
+footer {
+	margin-top: 55px;
+	padding: 25px;
+	background: #3d3b3c;
+}
+.footer-icons {
+	text-align: center;
+	font-size: 1.25rem;
+}
+.footer-icons i {
+	padding: 5px;
+}
+
+
+
+
+/*-----------------------
+	Media Queries
+-------------------------*/
+
+@media screen and (max-width: 1024px) {
+
+	.menu {
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.logo img {
+		margin-left: 65%;
+	}
+
+}
+
+
+
+@media screen and (min-width: 1025px) {
+
+	.hamburger,
+	#mobileMenu {
+		display: none !important;
+	}
+
+	.menu {
+		list-style-type: none;
+	}
+	ul.menu {
+		float: right;
+		margin-right: 10%;
+	}
+	.menu li {
+		float: left;
+	}
+	.menu li a {
+		text-decoration: none;
+		padding: 0 15px;
+		color: #7f8c8d;
+		font-size: .75rem;
+		text-transform: uppercase;
+		border-right: solid 1px gray;
+	}
+	.menu li:last-child {
+		border-right: none;
+	}
+	
+	.logo {
+		float: left;
+	}
+	.logo img {
+		margin: 0 auto;
+	}
+	/*.container.categories {
+		padding: 0 10%;
+	}*/
+	.column-1,
+	.column-2,
+	.column-3 {
+		float: left;
+	}
+
+}
+
+@media screen and (min-width: 1083px ) {
+
+	ul.menu {
+		margin-right: 15%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
