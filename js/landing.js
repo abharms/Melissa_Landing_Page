@@ -9,7 +9,3 @@ $(".hamburger").click(function(){
 	
 });
 
-//hover styles on bottom photos
-$(".box").on('mouseenter mouseleave', function() {
-    $(this).find('.bottomPhotosHover').fadeToggle(100);
-})
